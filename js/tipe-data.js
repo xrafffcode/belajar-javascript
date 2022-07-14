@@ -1,3 +1,15 @@
+// Macam-macam tipe data
+// 1. String
+// 2. Number
+// 3. Boolean
+// 4. Object
+// 5. Array
+// 6. Function
+// 7. Undefined
+
+
+
+
 // 1. Undefined
 
 let x;
@@ -80,3 +92,46 @@ let greet = "Hello";
 console.log(typeof (greet))
 
 /* output: string */
+
+const question = '"What do you think of JavaScript?" I asked';
+
+console.log(question)
+
+/* output: "What do you think of JavaScript?" I asked */
+
+const myName = "Luke";
+console.log(`Hello, my name is ${myName}.`);
+
+/* output: Hello, my name is Luke. */
+
+// 5. Boolean
+
+let xb = true;
+let yb = false;
+
+console.log(typeof (xb))
+console.log(typeof (yb))
+
+/* output: 
+boolean
+boolean
+*/
+
+const ab = 10;
+const bb = 12;
+
+let isGreater = ab > bb;
+let isLess = ab < bb;
+
+console.log(isGreater);
+console.log(isLess);
+
+// 6. Null
+
+let someLaterData = null;
+console.log(someLaterData);
+
+// 7. Symbol
+
+const id = Symbol("id");
+console.log(id);
